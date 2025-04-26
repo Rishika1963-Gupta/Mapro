@@ -1,0 +1,54 @@
+[{
+        "name": " Pineapple Jam ",
+        "liter": "1kg",
+        "details": "Get Details",
+        "price": 297,
+        "rating": 5,
+        "image": "/images/jam1.webp"
+    },
+
+    {
+        "name": " Mango Jam ",
+        "liter": "1kg",
+        "details": "Get Details",
+        "price": 297,
+        "rating": 5,
+        "image": "/images/jam2.webp"
+    },
+
+    {
+        "name": " Honey ",
+        "liter": "1kg",
+        "details": "Get Details",
+        "price": 630,
+        "rating": 5,
+        "image": "/images/jam3.webp"
+    },
+
+    {
+        "name": " Mixed Fruit Jam ",
+        "liter": "1kg",
+        "details": "Get Details",
+        "price": 297,
+        "rating": 5,
+        "image": "/images/jam5.webp"
+    },
+
+    {
+        "name": " Mango Preserve ",
+        "liter": "300gm",
+        "details": "Get Details",
+        "price": 270,
+        "rating": 3,
+        "image": "/images/jam4.webp"
+    },
+
+    {
+        "name": " Chocolate Spread with Choco chips ",
+        "liter": "300gm",
+        "details": "Get Details",
+        "price": 270,
+        "rating": 5,
+        "image": "/images/jam6.webp"
+    }
+]

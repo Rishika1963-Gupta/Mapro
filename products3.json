@@ -1,0 +1,63 @@
+[{
+        "name": " Whole Almonds Coated with Fine Milk ",
+        "liter": "100gm",
+        "details": "Get Details",
+        "price": 270,
+        "rating": 5,
+        "image": "/images/ch3.webp"
+    },
+
+    {
+        "name": " Raisins Coated Fine Dark chocolates ",
+        "liter": "100gm",
+        "details": "Get Details",
+        "price": 270,
+        "rating": 5,
+        "image": "/images/ch4.webp"
+    },
+
+    {
+        "name": " Extra Dark Chocolate 80% Cocoa ",
+        "liter": "50gm",
+        "details": "Get Details",
+        "price": 198,
+        "rating": 5,
+        "image": "/images/ch5.webp"
+    },
+
+    {
+        "name": "Subtle Dark Chocolate 46% Cocoa",
+        "liter": "50gm",
+        "details": "Get Details",
+        "price": 198,
+        "rating": 5,
+        "image": "/images/ch6.webp"
+    },
+
+    {
+        "name": " Assorted Chocolate Bars Gift Pack ",
+        "liter": "250gm",
+        "details": "Get Details",
+        "price": 981,
+        "rating": 5,
+        "image": "/images/ch7.webp"
+    },
+
+    {
+        "name": "Chocolate Almond Dates ",
+        "liter": "100gm",
+        "details": "Get Details",
+        "price": 198,
+        "rating": 4,
+        "image": "/images/ch1.webp"
+    },
+
+    {
+        "name": "Chocolate Paan Flavoured",
+        "liter": "80gm",
+        "details": "Get Details",
+        "price": 198,
+        "rating": 5,
+        "image": "/images/ch2.webp"
+    }
+]

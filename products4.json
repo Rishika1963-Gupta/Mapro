@@ -1,0 +1,54 @@
+[{
+        "name": " Jamun ",
+        "liter": "175gm",
+        "details": "Get Details",
+        "price": 117,
+        "rating": 4,
+        "image": "/images/fr1.webp"
+    },
+
+    {
+        "name": " Strawberry ",
+        "liter": "175gm",
+        "details": "Get Details",
+        "price": 117,
+        "rating": 3,
+        "image": "/images/fr2.webp"
+    },
+
+    {
+        "name": " Fruba Guava ",
+        "liter": "450gm",
+        "details": "Get Details",
+        "price": 300,
+        "rating": 4,
+        "image": "/images/fr3.webp"
+    },
+
+    {
+        "name": " Frubbles Guava ",
+        "liter": "180gm",
+        "details": "Get Details",
+        "price": 180,
+        "rating": 4,
+        "image": "/images/fr4.webp"
+    },
+
+    {
+        "name": " Tarmarind ",
+        "liter": "400gm",
+        "details": "Get Details",
+        "price": 117,
+        "rating": 5,
+        "image": "/images/fr5.webp"
+    },
+
+    {
+        "name": " Falero Assorted pack of 6 ",
+        "liter": "1kg",
+        "details": "Get Details",
+        "price": 702,
+        "rating": 4,
+        "image": "/images/fr6.webp"
+    }
+]

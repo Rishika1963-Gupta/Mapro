@@ -1,0 +1,164 @@
+[{
+        "name": " Whole Strawberry Fruit Crush",
+        "liter": "1000ml",
+        "details": "Get Details",
+        "price": 360,
+        "rating": 4,
+        "image": "/images/prd1.webp"
+
+    },
+
+    {
+        "name": "Butterscotch flavoured Apple Crush",
+        "liter": "1000ml",
+        "details": "Get Details",
+        "price": 252,
+        "rating": 4,
+        "image": "/images/prd11.webp"
+
+
+    },
+
+    {
+        "name": "Citrus Flavoured Blue Fruit crush",
+        "liter": "1000ml",
+        "details": "Get Details",
+        "price": 252,
+        "rating": 4,
+        "image": "/images/prd12.webp"
+
+
+    },
+
+    {
+        "name": " Alphonso Mango Fruit Crush",
+        "liter": "1000ml",
+        "details": "Get Details",
+        "price": 360,
+        "rating": 4.3,
+        "image": "/images/prd3.webp"
+
+
+    },
+
+    {
+        "name": "Limboo Timboo Lemon Citrus Squash",
+        "liter": "1000ml",
+        "details": "Get Details",
+        "price": 252,
+        "rating": 4,
+        "image": "/images/prd13.webp"
+
+
+    },
+
+    {
+        "name": "Jeera Masala Cordial",
+        "liter": "750ml",
+        "details": "Get Details",
+        "price": 180,
+        "rating": 5.0,
+        "image": "/images/prd5.webp"
+
+
+    },
+
+
+    {
+        "name": "Kala Khatta Squash ",
+        "liter": "750ml",
+        "details": "Get Details",
+        "price": 180,
+        "rating": 4.7,
+        "image": "/images/prd6.webp"
+
+
+    },
+
+    {
+        "name": " Blueberry Fruit Crush",
+        "liter": "750ml",
+        "details": "Get Details",
+        "price": 441,
+        "rating": 5.0,
+        "image": "/images/prd7.webp"
+
+
+    },
+
+    {
+        "name": " Litchi Fruit Crush",
+        "liter": "1000ml",
+        "details": "Get Details",
+        "price": 252,
+        "rating": 5.0,
+        "image": "/images/prd8.webp"
+
+
+    },
+
+    {
+        "name": " Pink Guava Fruit Crush ",
+        "liter": "750ml",
+        "details": "Get Details",
+        "price": 180,
+        "rating": 5.0,
+        "image": "/images/prd9.webp"
+
+
+    },
+
+    {
+        "name": "Rose Sharbat",
+        "liter": "1000ml",
+        "details": "Get Details",
+        "price": 252,
+        "rating": 4,
+        "image": "/images/prd2.webp"
+
+
+    },
+
+    {
+        "name": " Khus Sharbat ",
+        "liter": "1000ml",
+        "details": "Get Details",
+        "price": 252,
+        "rating": 4.5,
+        "image": "/images/prd4.webp"
+
+
+    },
+
+    {
+        "name": "Mango Fruit",
+        "liter": "1000ml",
+        "details": "Get Details",
+        "price": 252,
+        "rating": 4.5,
+        "image": "/images/prd14.webp"
+
+
+    },
+
+    {
+        "name": "Gingerale",
+        "liter": "750ml",
+        "details": "Get Details",
+        "price": 180,
+        "rating": 5,
+        "image": "/images/prd10.webp"
+
+
+    },
+    {
+        "name": " Rose Sharbat ",
+        "liter": "500ml",
+        "details": "Get Details",
+        "price": 450,
+        "rating": 4.5,
+        "image": "/images/prd15.webp"
+
+
+    }
+]

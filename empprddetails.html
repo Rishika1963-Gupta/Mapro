@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="/tailwind.config.js"></script>
+
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/style4.css" />
+
+    <title>Mapro - Delivering Delicious Goodness</title>
+    <link rel="icon" type="image/png" href="/images/strawberry_image.webp" sizes="45x45">
+    <!--FAVicon-->
+
+    <style>
+        /*Keyframes for animation*/
+        
+        @keyframes slideInLeft {
+            0% {
+                opacity: 0;
+                transform: translateX(-100%);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        
+        @keyframes slideInRight {
+            0% {
+                opacity: 0;
+                transform: translateX(100%);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        
+        .animate-left {
+            animation: slideInLeft 1s ease-in-out;
+            width: 100%;
+            /* Ensuring the width stays constant */
+        }
+        
+        .animate-right {
+            animation: slideInRight 1s ease-in-out;
+            width: 100%;
+            /* Ensuring the width stays constant */
+        }
+    </style>
+
+    <style>
+        #textDisplay {
+            display: none;
+            /* Initially hidden */
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+    </style>
+
+
+</head>
+
+<body class="p-6 bg-gradient-to-br from-white via-blue-50 to-blue-100 min-h-screen">
+    <!-- Container -->
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center max-w-[1400px] mx-auto lg:p-10 rounded-lg">
+
+        <!-- Left section (image and back button) -->
+        <div class="space-y-6 animate-left">
+            <button id="back" type="button" class="inline-flex items-center justify-center w-[180px] h-[45px] rounded-lg bg-color font-medium text-white text-[15px] leading-[18px] transition-all hover:-translate-y-1 shadow-md">
+                <i class="fas fa-arrow-left mr-2"></i> Back to Products 
+            </button>
+
+            <img id="prd-image" src="/images/prd1.webp" alt="strawberry" class="w-full h-auto rounded-xl shadow-md object-cover transition-transform duration-500 hover:scale-105" />
+        </div>
+
+        <!-- Right section (content) -->
+        <div class="space-y-8 animate-right">
+
+
+            <div>
+                <h1 class="text-overlay1 text-[31px] lg:text-[40px] font-extrabold text-auto">Whole strawberry crush</h1>
+
+
+                <br>
+                <p class="ml-auto text-[31px] text-black-900 font-bold">₹360</p>
+                <p class="mr-auto text-[22px] ">1000ml</p>
+                <BR>
+                <BR>
+                <img src="/images/graph1.png" class=" rounded-lg transition-all hover:-translate-y-1 shadow-md" />
+
+                <br>
+                <br>
+                <nav class="border-[8px] h-[50px] rounded-[13px] flex items-center ">
+                    <h4>IN Stock : 25</h4>
+
+                    <br><br>
+                </nav>
+                <br>
+
+                <button class="info-btn text-black hover:bg-yellow-400 rounded-lg p-4 w-[258px] ">Add to Cart</button>
+
+            </div>
+        </div>
+
+
+        <script src="/js/empprddet.js"></script>
+
+        <script>
+            //back button
+            document.getElementById("back").addEventListener("click", () => {
+                window.history.back();
+            });
+        </script>
+
+
+
+</body>
+
+</html>

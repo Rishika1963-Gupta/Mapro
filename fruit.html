@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
+
+    <link href="/style.css" rel="stylesheet" />
+    <link href="/style3.css" rel="stylesheet" />
+
+    <link href="/products.json" rel="stylesheet">
+
+    <title>Mapro - Delivering Delicious Goodness</title>
+    <link rel="icon" type="image/png" href="/images/strawberry_image.webp" sizes="45x45">
+    <!--FAVicon-->
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="/tailwind.config.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!--mapro logo-->
+    <div class="flex items-center focus-inset">
+        <img src="/images/mapro_logo.avif" height="225" width="120" alt="mapro" style="display: block; margin: 0 auto; max-width: 100%;" />
+    </div>
+
+    <!--navigation bar-->
+    <nav class="border-b border-[#0000] h-[100px] flex items-center ">
+        <div class="justify-between items-center w-full px-[40px]] border bg-gradient-to-br from-blue-200 to-blue-800  rounded-[16px] w-full ">
+
+            <div class="hidden md:flex items-center space-x-195 text-black ml-auto" style="font-family:Oswald; font-weight: bolder;">
+                <a href="/pages/product.html" class="w-[260px] h-[40px] ml-auto rounded-[16px] border border-[#0000]  text-center text-[25px] leading-[38px] transition-all hover hover:bg-gradient-to-br from-red-300 to-red-600 hover:-translate-y-1 hover:shadow-lg">SYRUP</a>
+
+                <a href="/pages/mixers.html" class="w-[260px] h-[40px] rounded-[16px] border border-[#0000]  text-center text-[25px] leading-[38px] transition-all hover hover:bg-gradient-to-br from-red-300 to-red-600 hover:-translate-y-1 hover:shadow-lg">MIXERS</a>
+
+                <a href="/pages/jams.html" class="w-[300px] h-[40px] rounded-[16px] border border-[#0000]  text-center text-[25px] leading-[38px] transition-all hover hover:bg-gradient-to-br from-red-300 to-red-600 hover:-translate-y-1 hover:shadow-lg">JAMS AND SPREADS</a>
+
+                <a href="/pages/chocolates.html" class="w-[260px] h-[40px] rounded-[16px] border border-[#0000]  text-center text-[25px] leading-[38px] transition-all hover hover:bg-gradient-to-br from-red-300 to-red-600 hover:-translate-y-1 hover:shadow-lg">CHOCOLATES</a>
+
+                <a href="/pages/fruit.html" class="w-[260px] h-[40px] mr-auto rounded-[16px] border border-[#0000]  text-center text-[25px] leading-[38px] transition-all hover hover:bg-gradient-to-br from-red-300 to-red-600 hover:-translate-y-1 hover:shadow-lg">FRUIT CHEWS</a>
+
+            </div>
+        </div>
+    </nav>
+    <div>
+        <button id="back-button" type="button" class="inline-flex items-center ml-auto  justify-center w-[120px] h-[40px] rounded-lg  transition-all hover:-translate-y-1 shadow-md" style="color:black; border-style: double; background-color: yellowgreen;">
+           <a href="/index.html"><i class="fas fa-arrow-left mr-4"></i> Back </a>
+        </button>
+    </div>
+    <div class="title" style="font-family:Sour Gummy; ">
+        <h1>Fruit Chews</h1>
+    </div>
+
+    <div class="title" style="color:red; font-family:Oswald; font-size:xx-large ; ">
+        <h5> Shops / Fruit Chews</h5>
+    </div>
+
+    <!--<section class="section section-divider white promo h-20">-->
+    <div class="container mx-auto px-5 py-4">
+        <div id="product-wrapper">
+            <div id="product-result">
+
+                <div id="product-info" class="grid grid-cols-5 md:grid-cols-5 lg:grid-cols-5 gap-5 mt-4 ">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/productchews.js"></script>
+
+
+
+
+</body>
+
+</html>

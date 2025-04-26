@@ -1,0 +1,261 @@
+/*CSS file for homepage ,signin , register, login , try for free btn , home info*/
+
+
+/* Global font settings */
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+
+/*CSS file for try for free btn */
+
+.bg-color {
+    background-image: linear-gradient(#cf245d, #46ac4a);
+}
+
+
+/*Background color for main container*/
+
+.background {
+    background-image: linear-gradient(90deg, #68e652, #eaed4d, #41ba31);
+}
+
+
+/*
+:root {
+    --tenne-tawny: #8301D3;
+    --tenne-tawny-dark: #8301D3;
+}
+*/
+
+
+/*Text overlay effect using gradient*/
+
+.text-overlay {
+    background: -webkit-linear-gradient(#1810b4, #28a3ef);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-overlay1 {
+    background: -webkit-linear-gradient(#910a0a, #e5675e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/*importing google font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset deafult Styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*text opacity*/
+
+.text {
+    opacity: 0.8;
+}
+
+
+/*Auth Model Styles*/
+
+#authModel {
+    transition: opacity 0.3s ease-in-out
+}
+
+#authModel.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#authModel>div {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+#authModel.active>div {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+}
+
+#signinform {
+    transition: opacity 0.3s ease-in-out;
+}
+
+#signinform.hide {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#signinform.show {
+    opacity: 0;
+    pointer-events: auto;
+}
+
+
+/*Input focus Styles*/
+
+.focus\:ring-3:focus {
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #04f00400);
+}
+
+.focus\:ring-green-600:focus {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(150, 102, 241, var(--tw-ring-opacity));
+}
+
+.focus\:border-transparent:focus {
+    border-color: transparent;
+}
+
+
+/*Container*/
+
+.container {
+    min-height: 100vh;
+}
+
+.product-wrapper {
+    max-width: 128px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #fff;
+    text-align: center;
+}
+
+#product-result {
+    margin-top: 4rem;
+}
+
+#product-info {
+    margin: 2.4rem 0;
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.prd-result {
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 8px 30px -12px rgba(0, 0, 0, 0.79);
+    margin: 2rem 0;
+    transition: all 0.4s ease;
+    background: #fff;
+}
+
+.prd-result:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 30px -12px rgba(60, 2, 94, 0.54);
+}
+
+.prd-img img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    height: 250px;
+    transition: transform 0.4s ease;
+}
+
+.prd-result:hover .prd-img img {
+    transform: scale(1.1);
+}
+
+.prd-nm {
+    padding: 1.5rem 0.5rem;
+    text-align: var(--tw-ring-offset-shadow);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.prd-nm h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+
+/* info button styles */
+
+.info-btn {
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(45deg, var(--tenne-tawny), var(--tenne-tawny-dark));
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 0.75rem 1.5rem;
+    display: inline-block;
+    border-radius: 2rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+
+/* product  button hover effect */
+
+.info-btn:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( 120deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transition: all 0.4s ease;
+}
+
+.info-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.info-btn:hover:before {
+    left: 100%;
+}
+
+.product-price {
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+.product-rating {
+    font-size: 30px;
+    color: #f9d60d;
+}
+
+.title {
+    font-size: 70px;
+    font-weight: normal;
+    color: #000;
+    text-align: center;
+}
+
+.bgcolor {
+    color: white;
+}
+
+
+/*description button*/
+
+#textDisplay {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+#textDisplay.show {
+    display: block;
+    opacity: 1;
+}

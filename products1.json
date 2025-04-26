@@ -1,0 +1,76 @@
+[{
+        "name": " Blue Curacao Sharbat ",
+        "liter": "1000ml",
+        "details": "Get Details",
+        "price": 630,
+        "rating": 4.5,
+        "image": "/images/mix2.webp"
+    },
+
+    {
+        "name": " Green Apple Sharbat ",
+        "liter": "1000ml",
+        "details": "Get Details",
+        "price": 630,
+        "rating": 3,
+        "image": "/images/mix3.webp"
+    },
+
+    {
+        "name": " Watermelon sharbat ",
+        "liter": "1000ml",
+        "details": "Get Details",
+        "price": 630,
+        "rating": 5,
+        "image": "/images/mix4.webp"
+    },
+
+    {
+        "name": " Triple Sec Sharbat ",
+        "liter": "1000ml",
+        "details": "Get Details",
+        "price": 630,
+        "rating": 3,
+        "image": "/images/mix5.webp"
+    },
+
+    {
+        "name": " Strawberry Sharbat ",
+        "liter": "1000ml",
+        "details": "Get Details",
+        "price": 630,
+        "rating": 4.5,
+        "image": "/images/mix8.webp"
+    },
+
+    {
+        "name": " Mojito Syrup ",
+        "liter": "1000ml",
+        "details": "Get Details",
+        "price": 630,
+        "rating": 4.5,
+        "image": "/images/mix1.webp"
+
+    },
+
+    {
+        "name": " Vanilla Sharbat ",
+        "liter": "1000ml",
+        "details": "Get Details",
+        "price": 630,
+        "rating": 3,
+        "image": "/images/mix6.webp"
+    },
+
+    {
+        "name": " Coconut Sharbat ",
+        "liter": "1000ml",
+        "details": "Get Details",
+        "price": 630,
+        "rating": 4,
+        "image": "/images/mix7.webp"
+    }
+
+
+
+]
