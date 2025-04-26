@@ -1,0 +1,29 @@
+/* CART CONTAINER*/
+
+.cart-icon {
+    position: fixed;
+    bottom: 20px;
+    /* Adjust as needed */
+    right: 20px;
+    /* Adjust as needed */
+    z-index: 1000;
+    /* Ensure it appears above other elements */
+}
+
+.cart-icon img {
+    width: 50px;
+    /* Adjust size as needed */
+    cursor: pointer;
+}
+
+.cart-container {
+    position: fixed;
+    bottom: 80px;
+    /* Position above the icon */
+    right: 20px;
+    /* Align with the icon */
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
